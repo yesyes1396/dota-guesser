@@ -81,7 +81,6 @@ python server.py
 `heroes.json` содержит:
 - Имя героя
 - Пол
-- Типы (видео, анимация)
 - Роли (Carry, Support и т.д.)
 - Атрибут (STR, AGI, INT, UNI)
 - Тип атаки (Melee, Ranged)
@@ -89,5 +88,5 @@ python server.py
 - Год выпуска
 - Внутреннее имя файла иконки
 
-##Автор
+## Автор
 https://github.com/yesyes1396
