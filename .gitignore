@@ -1,0 +1,19 @@
+# Development scripts
+scripts/
+*.py
+
+# Temporary and backup files
+*.bak*
+heroes_fetched.json
+heroes_wiki.json
+heroes_wiki_complexity.json
+assets/hero_map.json
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.code-workspace

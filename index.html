@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Dota Guesser</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="modal fade" id="heroModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content text-dark">
+      <form id="heroForm" class="needs-validation" novalidate>
+        <div class="modal-header">
+          <h5 class="modal-title" id="heroModalLabel">Добавить / Редактировать героя</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <input type="hidden" id="heroIndex">
+          <div class="row g-2">
+            <div class="col-md-6">
+              <label class="form-label">Имя (англ.)</label>
+              <input id="h_name" class="form-control" required>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label d-block">Пол</label>
+              <div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="h_gender" id="h_gender_m" value="Мужской">
+                  <label class="form-check-label" for="h_gender_m">Мужской</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="h_gender" id="h_gender_f" value="Женский">
+                  <label class="form-check-label" for="h_gender_f">Женский</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="h_gender" id="h_gender_n" value="Нет" checked>
+                  <label class="form-check-label" for="h_gender_n">Нет</label>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">Виды (через запятую)</label>
+              <input id="h_types" class="form-control" placeholder="пример: Увлеченный, Гигант">
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">Роли (через запятую)</label>
+              <input id="h_roles" class="form-control" placeholder="Carry, Support">
+            </div>
+            <div class="col-md-4">
+              <label class="form-label">Атрибут</label>
+              <select id="h_attr" class="form-select">
+                <option value="STR">STR</option>
+                <option value="AGI">AGI</option>
+                <option value="INT">INT</option>
+                <option value="UNI">UNI</option>
+              </select>
+            </div>
+            <div class="col-md-4">
+              <label class="form-label">Дальность атаки</label>
+              <select id="h_attack" class="form-select">
+                <option value="Melee">Melee</option>
+                <option value="Ranged">Ranged</option>
+              </select>
+            </div>
+            <div class="col-md-4">
+              <label class="form-label d-block">Сложность</label>
+              <div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="h_complexity" id="h_comp_easy" value="Легко">
+                  <label class="form-check-label" for="h_comp_easy">Легко</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="h_complexity" id="h_comp_mid" value="Средне" checked>
+                  <label class="form-check-label" for="h_comp_mid">Средне</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="h_complexity" id="h_comp_hard" value="Сложно">
+                  <label class="form-check-label" for="h_comp_hard">Сложно</label>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <label class="form-label">Год выпуска</label>
+              <input id="h_year" class="form-control" type="number" min="1900" max="2100">
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Отмена</button>
+          <button type="submit" class="btn btn-primary">Сохранить</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+  <main class="app container">
+
+    <div class="modal fade" id="allHeroesModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content bg-dark">
+          <div class="modal-header">
+            <h5 class="modal-title text-white">Все герои</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="assets/allheroes.png" alt="All Heroes" class="img-fluid" style="max-width:100%;">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card-app">
+      <div class="d-flex align-items-center justify-content-between mb-3">
+      <div>
+        <h1 class="h4 mb-0">Dota Guesser</h1>
+        <div class="small-help">  </div>
+      </div>
+
+      <div style="max-width:640px; position:relative;">
+        <div class="input-group">
+          <input id="guessInput" class="form-control" placeholder="Введите имя героя (например: Anti-Mage)" autocomplete="off" aria-autocomplete="list">
+          <button id="submitBtn" class="btn btn-primary">Угадать</button>
+          <button id="restartBtn" class="btn btn-outline-secondary">Новая игра</button>
+        </div>
+        <div id="suggestions" class="list-group" style="position:absolute;z-index:1200;left:0;right:0;display:none;max-height:260px;overflow:auto"></div>
+      </div>
+      <div class="ms-3">
+        <button id="openAddBtn" class="btn btn-success hide">Добавить героя</button>
+      </div>
+    </div>
+
+    <div id="message" class="message mb-2"></div>
+    <hr class="divider">
+    <div class="small-help mb-2">Кликните по имени героя, чтобы открыть редактор. Подсказки показывают совпадения полей.</div>
+
+    <div style="overflow-x: auto;">
+      <table class="table table-dark align-middle" id="guesses">
+        <thead>
+          <tr>
+            <th>ГЕРОЙ</th>
+            <th>ПОЛ</th>
+            <th>ВИД</th>
+            <th>РОЛИ</th>
+            <th>АТРИБУТ</th>
+            <th>ТИП АТАКИ</th>
+            <th>СЛОЖНОСТЬ</th>
+            <th>ГОД ВЫПУСКА</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+    <div class="d-flex gap-2 mt-3">
+      <button id="viewAllHeroesBtn" class="btn btn-outline-info btn-sm">Все герои 📸</button>
+      <button id="surrenderBtn" class="btn btn-danger">Сдаться</button>
+    </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,1918 @@
+[
+  {
+    "name": "Abaddon",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Support",
+      "Carry",
+      "Durable"
+    ],
+    "attr": "UNI",
+    "attack": "Melee",
+    "complexity": "Легко",
+    "year": "2013"
+  },
+  {
+    "name": "Alchemist",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Support",
+      "Durable",
+      "Disabler",
+      "Initiator",
+      "Nuker"
+    ],
+    "attr": "STR",
+    "attack": "Melee",
+    "complexity": "Легко",
+    "year": "2011"
+  },
+  {
+    "name": "Ancient Apparition",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Support",
+      "Disabler",
+      "Nuker"
+    ],
+    "attr": "INT",
+    "attack": "Ranged",
+    "complexity": "Средне",
+    "year": "2011"
+  },
+  {
+    "name": "Anti-Mage",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Escape",
+      "Nuker"
+    ],
+    "attr": "AGI",
+    "attack": "Melee",
+    "complexity": "Легко",
+    "year": "2010",
+    "internal": "antimage"
+  },
+  {
+    "name": "Arc Warden",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Escape",
+      "Nuker"
+    ],
+    "attr": "UNI",
+    "attack": "Ranged",
+    "complexity": "Сложно",
+    "year": "2015"
+  },
+  {
+    "name": "Axe",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Initiator",
+      "Durable",
+      "Disabler",
+      "Carry"
+    ],
+    "attr": "STR",
+    "attack": "Melee",
+    "complexity": "Легко",
+    "year": "2010"
+  },
+  {
+    "name": "Bane",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Support",
+      "Disabler",
+      "Nuker",
+      "Durable"
+    ],
+    "attr": "UNI",
+    "attack": "Ranged",
+    "complexity": "Средне",
+    "year": "2012"
+  },
+  {
+    "name": "Batrider",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Initiator",
+      "Disabler",
+      "Escape"
+    ],
+    "attr": "UNI",
+    "attack": "Ranged",
+    "complexity": "Средне",
+    "year": "2011"
+  },
+  {
+    "name": "Beastmaster",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Initiator",
+      "Disabler",
+      "Durable",
+      "Nuker"
+    ],
+    "attr": "UNI",
+    "attack": "Melee",
+    "complexity": "Средне",
+    "year": "2011"
+  },
+  {
+    "name": "Bloodseeker",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Disabler",
+      "Nuker",
+      "Initiator"
+    ],
+    "attr": "AGI",
+    "attack": "Melee",
+    "complexity": "Легко",
+    "year": "2011"
+  },
+  {
+    "name": "Bounty Hunter",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Escape",
+      "Nuker"
+    ],
+    "attr": "AGI",
+    "attack": "Melee",
+    "complexity": "Легко",
+    "year": "2011"
+  },
+  {
+    "name": "Brewmaster",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Initiator",
+      "Durable",
+      "Disabler",
+      "Nuker"
+    ],
+    "attr": "UNI",
+    "attack": "Melee",
+    "complexity": "Сложно",
+    "year": "2012"
+  },
+  {
+    "name": "Bristleback",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Durable",
+      "Initiator",
+      "Nuker"
+    ],
+    "attr": "STR",
+    "attack": "Melee",
+    "complexity": "Легко",
+    "year": "2013"
+  },
+  {
+    "name": "Broodmother",
+    "gender": "Female",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Pusher",
+      "Escape",
+      "Nuker"
+    ],
+    "attr": "AGI",
+    "attack": "Melee",
+    "complexity": "Средне",
+    "year": "2011"
+  },
+  {
+    "name": "Centaur Warrunner",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Durable",
+      "Initiator",
+      "Disabler",
+      "Nuker",
+      "Escape"
+    ],
+    "attr": "STR",
+    "attack": "Melee",
+    "complexity": "Легко",
+    "year": "2012"
+  },
+  {
+    "name": "Chaos Knight",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Disabler",
+      "Durable",
+      "Pusher",
+      "Initiator"
+    ],
+    "attr": "STR",
+    "attack": "Melee",
+    "complexity": "Легко",
+    "year": "2012"
+  },
+  {
+    "name": "Chen",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Support",
+      "Pusher"
+    ],
+    "attr": "INT",
+    "attack": "Ranged",
+    "complexity": "Сложно",
+    "year": "2011"
+  },
+  {
+    "name": "Clinkz",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Escape",
+      "Pusher"
+    ],
+    "attr": "AGI",
+    "attack": "Ranged",
+    "complexity": "Средне",
+    "year": "2012"
+  },
+  {
+    "name": "Clockwerk",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Initiator",
+      "Disabler",
+      "Durable",
+      "Nuker"
+    ],
+    "attr": "STR",
+    "attack": "Melee",
+    "complexity": "Средне",
+    "year": "2011",
+    "internal": "rattletrap"
+  },
+  {
+    "name": "Crystal Maiden",
+    "gender": "Female",
+    "types": [],
+    "roles": [
+      "Support",
+      "Disabler",
+      "Nuker"
+    ],
+    "attr": "INT",
+    "attack": "Ranged",
+    "complexity": "Легко",
+    "year": "2010"
+  },
+  {
+    "name": "Dark Seer",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Initiator",
+      "Escape",
+      "Disabler"
+    ],
+    "attr": "INT",
+    "attack": "Melee",
+    "complexity": "Легко",
+    "year": "2011"
+  },
+  {
+    "name": "Dark Willow",
+    "gender": "Female",
+    "types": [],
+    "roles": [
+      "Support",
+      "Nuker",
+      "Disabler",
+      "Escape"
+    ],
+    "attr": "INT",
+    "attack": "Ranged",
+    "complexity": "Средне",
+    "year": "2017"
+  },
+  {
+    "name": "Dawnbreaker",
+    "gender": "Female",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Durable"
+    ],
+    "attr": "STR",
+    "attack": "Melee",
+    "complexity": "Легко",
+    "year": "2021"
+  },
+  {
+    "name": "Dazzle",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Support",
+      "Nuker",
+      "Disabler"
+    ],
+    "attr": "UNI",
+    "attack": "Ranged",
+    "complexity": "Легко",
+    "year": "2010"
+  },
+  {
+    "name": "Death Prophet",
+    "gender": "Female",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Pusher",
+      "Nuker",
+      "Disabler"
+    ],
+    "attr": "UNI",
+    "attack": "Ranged",
+    "complexity": "Легко",
+    "year": "2011"
+  },
+  {
+    "name": "Disruptor",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Support",
+      "Disabler",
+      "Nuker",
+      "Initiator"
+    ],
+    "attr": "INT",
+    "attack": "Ranged",
+    "complexity": "Средне",
+    "year": "2012"
+  },
+  {
+    "name": "Doom",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Disabler",
+      "Initiator",
+      "Durable",
+      "Nuker"
+    ],
+    "attr": "STR",
+    "attack": "Melee",
+    "complexity": "Средне",
+    "year": "2011",
+    "internal": "doom_bringer"
+  },
+  {
+    "name": "Dragon Knight",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Pusher",
+      "Durable",
+      "Disabler",
+      "Initiator",
+      "Nuker"
+    ],
+    "attr": "STR",
+    "attack": "Melee",
+    "complexity": "Легко",
+    "year": "2011"
+  },
+  {
+    "name": "Drow Ranger",
+    "gender": "Female",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Disabler",
+      "Pusher"
+    ],
+    "attr": "AGI",
+    "attack": "Ranged",
+    "complexity": "Легко",
+    "year": "2010"
+  },
+  {
+    "name": "Earth Spirit",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Nuker",
+      "Escape",
+      "Disabler",
+      "Initiator",
+      "Durable"
+    ],
+    "attr": "STR",
+    "attack": "Melee",
+    "complexity": "Сложно",
+    "year": "2013"
+  },
+  {
+    "name": "Earthshaker",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Support",
+      "Initiator",
+      "Disabler",
+      "Nuker"
+    ],
+    "attr": "STR",
+    "attack": "Melee",
+    "complexity": "Средне",
+    "year": "2010"
+  },
+  {
+    "name": "Elder Titan",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Initiator",
+      "Disabler",
+      "Nuker",
+      "Durable"
+    ],
+    "attr": "STR",
+    "attack": "Melee",
+    "complexity": "Средне",
+    "year": "2013"
+  },
+  {
+    "name": "Ember Spirit",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Escape",
+      "Nuker",
+      "Disabler",
+      "Initiator"
+    ],
+    "attr": "AGI",
+    "attack": "Melee",
+    "complexity": "Средне",
+    "year": "2013"
+  },
+  {
+    "name": "Enchantress",
+    "gender": "Female",
+    "types": [],
+    "roles": [
+      "Support",
+      "Pusher",
+      "Durable",
+      "Disabler"
+    ],
+    "attr": "INT",
+    "attack": "Ranged",
+    "complexity": "Средне",
+    "year": "2011"
+  },
+  {
+    "name": "Enigma",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Disabler",
+      "Initiator",
+      "Pusher"
+    ],
+    "attr": "UNI",
+    "attack": "Ranged",
+    "complexity": "Средне",
+    "year": "2011"
+  },
+  {
+    "name": "Faceless Void",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Initiator",
+      "Disabler",
+      "Escape",
+      "Durable"
+    ],
+    "attr": "AGI",
+    "attack": "Melee",
+    "complexity": "Средне",
+    "year": "2011"
+  },
+  {
+    "name": "Grimstroke",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Support",
+      "Nuker",
+      "Disabler",
+      "Escape"
+    ],
+    "attr": "INT",
+    "attack": "Ranged",
+    "complexity": "Средне",
+    "year": "2018"
+  },
+  {
+    "name": "Gyrocopter",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Nuker",
+      "Disabler"
+    ],
+    "attr": "AGI",
+    "attack": "Ranged",
+    "complexity": "Легко",
+    "year": "2012"
+  },
+  {
+    "name": "Hoodwink",
+    "gender": "Female",
+    "types": [],
+    "roles": [
+      "Support",
+      "Nuker",
+      "Escape",
+      "Disabler"
+    ],
+    "attr": "AGI",
+    "attack": "Ranged",
+    "complexity": "Средне",
+    "year": "2020"
+  },
+  {
+    "name": "Huskar",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Durable",
+      "Initiator"
+    ],
+    "attr": "STR",
+    "attack": "Ranged",
+    "complexity": "Легко",
+    "year": "2011"
+  },
+  {
+    "name": "Invoker",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Nuker",
+      "Disabler",
+      "Escape",
+      "Pusher"
+    ],
+    "attr": "INT",
+    "attack": "Ranged",
+    "complexity": "Сложно",
+    "year": "2012"
+  },
+  {
+    "name": "Io",
+    "gender": "Нет",
+    "types": [],
+    "roles": [
+      "Support",
+      "Escape",
+      "Nuker"
+    ],
+    "attr": "UNI",
+    "attack": "Ranged",
+    "complexity": "Сложно",
+    "year": "2012",
+    "internal": "wisp"
+  },
+  {
+    "name": "Jakiro",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Support",
+      "Nuker",
+      "Pusher",
+      "Disabler"
+    ],
+    "attr": "INT",
+    "attack": "Ranged",
+    "complexity": "Легко",
+    "year": "2011"
+  },
+  {
+    "name": "Juggernaut",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Pusher",
+      "Escape"
+    ],
+    "attr": "AGI",
+    "attack": "Melee",
+    "complexity": "Легко",
+    "year": "2011"
+  },
+  {
+    "name": "Keeper of the Light",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Support",
+      "Nuker",
+      "Disabler"
+    ],
+    "attr": "INT",
+    "attack": "Ranged",
+    "complexity": "Средне",
+    "year": "2012"
+  },
+  {
+    "name": "Kez",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Escape",
+      "Disabler"
+    ],
+    "attr": "AGI",
+    "attack": "Melee",
+    "complexity": "Сложно",
+    "year": "2024"
+  },
+  {
+    "name": "Kunkka",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Support",
+      "Disabler",
+      "Initiator",
+      "Durable",
+      "Nuker"
+    ],
+    "attr": "STR",
+    "attack": "Melee",
+    "complexity": "Средне",
+    "year": "2011"
+  },
+  {
+    "name": "Largo",
+    "gender": "Мужской",
+    "types": [],
+    "roles": [
+      "Durable",
+      "Disabler",
+      "Support"
+    ],
+    "attr": "STR",
+    "attack": "Melee",
+    "complexity": "Средне",
+    "year": "2025"
+  },
+  {
+    "name": "Legion Commander",
+    "gender": "Female",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Disabler",
+      "Initiator",
+      "Durable",
+      "Nuker"
+    ],
+    "attr": "STR",
+    "attack": "Melee",
+    "complexity": "Легко",
+    "year": "2013"
+  },
+  {
+    "name": "Leshrac",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Support",
+      "Nuker",
+      "Pusher",
+      "Disabler"
+    ],
+    "attr": "INT",
+    "attack": "Ranged",
+    "complexity": "Легко",
+    "year": "2011"
+  },
+  {
+    "name": "Lich",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Support",
+      "Nuker"
+    ],
+    "attr": "INT",
+    "attack": "Ranged",
+    "complexity": "Легко",
+    "year": "2010"
+  },
+  {
+    "name": "Lifestealer",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Durable",
+      "Escape",
+      "Disabler"
+    ],
+    "attr": "STR",
+    "attack": "Melee",
+    "complexity": "Средне",
+    "year": "2011",
+    "internal": "life_stealer"
+  },
+  {
+    "name": "Lina",
+    "gender": "Female",
+    "types": [],
+    "roles": [
+      "Support",
+      "Carry",
+      "Nuker",
+      "Disabler"
+    ],
+    "attr": "INT",
+    "attack": "Ranged",
+    "complexity": "Легко",
+    "year": "2010"
+  },
+  {
+    "name": "Lion",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Support",
+      "Disabler",
+      "Nuker",
+      "Initiator"
+    ],
+    "attr": "INT",
+    "attack": "Ranged",
+    "complexity": "Легко",
+    "year": "2010"
+  },
+  {
+    "name": "Lone Druid",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Pusher",
+      "Durable"
+    ],
+    "attr": "AGI",
+    "attack": "Ranged",
+    "complexity": "Сложно",
+    "year": "2012"
+  },
+  {
+    "name": "Luna",
+    "gender": "Female",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Nuker",
+      "Pusher"
+    ],
+    "attr": "AGI",
+    "attack": "Ranged",
+    "complexity": "Легко",
+    "year": "2012"
+  },
+  {
+    "name": "Lycan",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Pusher",
+      "Durable",
+      "Escape"
+    ],
+    "attr": "STR",
+    "attack": "Melee",
+    "complexity": "Средне",
+    "year": "2012"
+  },
+  {
+    "name": "Magnus",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Initiator",
+      "Disabler",
+      "Nuker",
+      "Escape"
+    ],
+    "attr": "UNI",
+    "attack": "Melee",
+    "complexity": "Средне",
+    "year": "2012"
+  },
+  {
+    "name": "Marci",
+    "gender": "Female",
+    "types": [],
+    "roles": [
+      "Support",
+      "Carry",
+      "Initiator",
+      "Disabler",
+      "Escape"
+    ],
+    "attr": "UNI",
+    "attack": "Melee",
+    "complexity": "Средне",
+    "year": "2021"
+  },
+  {
+    "name": "Mars",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Initiator",
+      "Disabler",
+      "Durable"
+    ],
+    "attr": "STR",
+    "attack": "Melee",
+    "complexity": "Легко",
+    "year": "2019"
+  },
+  {
+    "name": "Medusa",
+    "gender": "Female",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Disabler",
+      "Durable"
+    ],
+    "attr": "AGI",
+    "attack": "Ranged",
+    "complexity": "Легко",
+    "year": "2013"
+  },
+  {
+    "name": "Meepo",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Escape",
+      "Nuker",
+      "Disabler",
+      "Initiator",
+      "Pusher"
+    ],
+    "attr": "AGI",
+    "attack": "Melee",
+    "complexity": "Сложно",
+    "year": "2012"
+  },
+  {
+    "name": "Mirana",
+    "gender": "Female",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Support",
+      "Escape",
+      "Nuker",
+      "Disabler"
+    ],
+    "attr": "AGI",
+    "attack": "Ranged",
+    "complexity": "Средне",
+    "year": "2010"
+  },
+  {
+    "name": "Monkey King",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Escape",
+      "Disabler",
+      "Initiator"
+    ],
+    "attr": "AGI",
+    "attack": "Melee",
+    "complexity": "Средне",
+    "year": "2016"
+  },
+  {
+    "name": "Morphling",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Escape",
+      "Durable",
+      "Nuker",
+      "Disabler"
+    ],
+    "attr": "AGI",
+    "attack": "Ranged",
+    "complexity": "Сложно",
+    "year": "2010"
+  },
+  {
+    "name": "Muerta",
+    "gender": "Female",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Nuker",
+      "Disabler"
+    ],
+    "attr": "INT",
+    "attack": "Ranged",
+    "complexity": "Легко",
+    "year": "2023"
+  },
+  {
+    "name": "Naga Siren",
+    "gender": "Female",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Support",
+      "Pusher",
+      "Disabler",
+      "Initiator",
+      "Escape"
+    ],
+    "attr": "AGI",
+    "attack": "Melee",
+    "complexity": "Средне",
+    "year": "2012"
+  },
+  {
+    "name": "Nature's Prophet",
+    "gender": "Female",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Pusher",
+      "Escape",
+      "Nuker"
+    ],
+    "attr": "UNI",
+    "attack": "Ranged",
+    "complexity": "Средне",
+    "year": "2011",
+    "internal": "natures_prophet"
+  },
+  {
+    "name": "Necrophos",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Nuker",
+      "Durable",
+      "Disabler"
+    ],
+    "attr": "INT",
+    "attack": "Ranged",
+    "complexity": "Легко",
+    "year": "2010"
+  },
+  {
+    "name": "Night Stalker",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Initiator",
+      "Durable",
+      "Disabler",
+      "Nuker"
+    ],
+    "attr": "STR",
+    "attack": "Melee",
+    "complexity": "Легко",
+    "year": "2011"
+  },
+  {
+    "name": "Nyx Assassin",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Disabler",
+      "Nuker",
+      "Initiator",
+      "Escape"
+    ],
+    "attr": "UNI",
+    "attack": "Melee",
+    "complexity": "Средне",
+    "year": "2012"
+  },
+  {
+    "name": "Ogre Magi",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Support",
+      "Nuker",
+      "Disabler",
+      "Durable",
+      "Initiator"
+    ],
+    "attr": "STR",
+    "attack": "Melee",
+    "complexity": "Легко",
+    "year": "2012"
+  },
+  {
+    "name": "Omniknight",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Support",
+      "Durable",
+      "Nuker"
+    ],
+    "attr": "STR",
+    "attack": "Melee",
+    "complexity": "Легко",
+    "year": "2011"
+  },
+  {
+    "name": "Oracle",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Support",
+      "Nuker",
+      "Disabler",
+      "Escape"
+    ],
+    "attr": "INT",
+    "attack": "Ranged",
+    "complexity": "Сложно",
+    "year": "2015"
+  },
+  {
+    "name": "Outworld Destroyer",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Nuker",
+      "Disabler"
+    ],
+    "attr": "INT",
+    "attack": "Ranged",
+    "complexity": "Сложно",
+    "year": "2015"
+  },
+  {
+    "name": "Pangolier",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Nuker",
+      "Disabler",
+      "Durable",
+      "Escape",
+      "Initiator"
+    ],
+    "attr": "UNI",
+    "attack": "Melee",
+    "complexity": "Средне",
+    "year": "2017"
+  },
+  {
+    "name": "Phantom Assassin",
+    "gender": "Female",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Escape"
+    ],
+    "attr": "AGI",
+    "attack": "Melee",
+    "complexity": "Легко",
+    "year": "2012"
+  },
+  {
+    "name": "Phantom Lancer",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Escape",
+      "Pusher",
+      "Nuker"
+    ],
+    "attr": "AGI",
+    "attack": "Melee",
+    "complexity": "Средне",
+    "year": "2012"
+  },
+  {
+    "name": "Phoenix",
+    "gender": "Нет",
+    "types": [],
+    "roles": [
+      "Support",
+      "Nuker",
+      "Initiator",
+      "Escape",
+      "Disabler"
+    ],
+    "attr": "STR",
+    "attack": "Ranged",
+    "complexity": "Средне",
+    "year": "2014"
+  },
+  {
+    "name": "Primal Beast",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Initiator",
+      "Durable",
+      "Disabler"
+    ],
+    "attr": "STR",
+    "attack": "Melee",
+    "complexity": "Легко",
+    "year": "2022"
+  },
+  {
+    "name": "Puck",
+    "gender": "Нет",
+    "types": [],
+    "roles": [
+      "Initiator",
+      "Disabler",
+      "Escape",
+      "Nuker"
+    ],
+    "attr": "INT",
+    "attack": "Ranged",
+    "complexity": "Средне",
+    "year": "2010"
+  },
+  {
+    "name": "Pudge",
+    "gender": "Мужской",
+    "types": [],
+    "roles": [
+      "Disabler",
+      "Initiator",
+      "Durable",
+      "Nuker",
+      "Support"
+    ],
+    "attr": "STR",
+    "attack": "Melee",
+    "complexity": "Средне",
+    "year": "2010"
+  },
+  {
+    "name": "Pugna",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Nuker",
+      "Pusher"
+    ],
+    "attr": "INT",
+    "attack": "Ranged",
+    "complexity": "Средне",
+    "year": "2011"
+  },
+  {
+    "name": "Queen of Pain",
+    "gender": "Female",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Nuker",
+      "Escape"
+    ],
+    "attr": "INT",
+    "attack": "Ranged",
+    "complexity": "Средне",
+    "year": "2011",
+    "internal": "queenofpain"
+  },
+  {
+    "name": "Razor",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Durable",
+      "Nuker",
+      "Pusher"
+    ],
+    "attr": "AGI",
+    "attack": "Ranged",
+    "complexity": "Легко",
+    "year": "2010"
+  },
+  {
+    "name": "Riki",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Escape",
+      "Disabler"
+    ],
+    "attr": "AGI",
+    "attack": "Melee",
+    "complexity": "Легко",
+    "year": "2011"
+  },
+  {
+    "name": "Ring Master",
+    "gender": "Мужской",
+    "types": [],
+    "roles": [
+      "Support",
+      "Nuker",
+      "Escape",
+      "Disabler"
+    ],
+    "attr": "INT",
+    "attack": "Ranged",
+    "complexity": "Средне",
+    "year": "2024"
+  },
+  {
+    "name": "Rubick",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Support",
+      "Disabler",
+      "Nuker"
+    ],
+    "attr": "INT",
+    "attack": "Ranged",
+    "complexity": "Сложно",
+    "year": "2012"
+  },
+  {
+    "name": "Sand King",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Initiator",
+      "Disabler",
+      "Support",
+      "Nuker",
+      "Escape"
+    ],
+    "attr": "UNI",
+    "attack": "Melee",
+    "complexity": "Средне",
+    "year": "2010"
+  },
+  {
+    "name": "Shadow Demon",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Support",
+      "Disabler",
+      "Initiator",
+      "Nuker"
+    ],
+    "attr": "INT",
+    "attack": "Ranged",
+    "complexity": "Средне",
+    "year": "2012"
+  },
+  {
+    "name": "Shadow Fiend",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Nuker"
+    ],
+    "attr": "AGI",
+    "attack": "Ranged",
+    "complexity": "Средне",
+    "year": "2011",
+    "internal": "nevermore"
+  },
+  {
+    "name": "Shadow Shaman",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Support",
+      "Pusher",
+      "Disabler",
+      "Nuker",
+      "Initiator"
+    ],
+    "attr": "INT",
+    "attack": "Ranged",
+    "complexity": "Легко",
+    "year": "2010"
+  },
+  {
+    "name": "Silencer",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Support",
+      "Disabler",
+      "Initiator",
+      "Nuker"
+    ],
+    "attr": "INT",
+    "attack": "Ranged",
+    "complexity": "Средне",
+    "year": "2012"
+  },
+  {
+    "name": "Skywrath Mage",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Support",
+      "Nuker",
+      "Disabler"
+    ],
+    "attr": "INT",
+    "attack": "Ranged",
+    "complexity": "Легко",
+    "year": "2013"
+  },
+  {
+    "name": "Slardar",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Durable",
+      "Initiator",
+      "Disabler",
+      "Escape"
+    ],
+    "attr": "STR",
+    "attack": "Melee",
+    "complexity": "Легко",
+    "year": "2011"
+  },
+  {
+    "name": "Slark",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Escape",
+      "Disabler",
+      "Nuker"
+    ],
+    "attr": "AGI",
+    "attack": "Melee",
+    "complexity": "Средне",
+    "year": "2012"
+  },
+  {
+    "name": "Snapfire",
+    "gender": "Female",
+    "types": [],
+    "roles": [
+      "Support",
+      "Nuker",
+      "Disabler",
+      "Escape"
+    ],
+    "attr": "UNI",
+    "attack": "Ranged",
+    "complexity": "Легко",
+    "year": "2019"
+  },
+  {
+    "name": "Sniper",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Nuker"
+    ],
+    "attr": "AGI",
+    "attack": "Ranged",
+    "complexity": "Легко",
+    "year": "2011"
+  },
+  {
+    "name": "Spectre",
+    "gender": "Female",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Durable",
+      "Escape"
+    ],
+    "attr": "AGI",
+    "attack": "Melee",
+    "complexity": "Средне",
+    "year": "2011"
+  },
+  {
+    "name": "Spirit Breaker",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Initiator",
+      "Disabler",
+      "Durable",
+      "Escape"
+    ],
+    "attr": "STR",
+    "attack": "Melee",
+    "complexity": "Легко",
+    "year": "2012"
+  },
+  {
+    "name": "Storm Spirit",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Escape",
+      "Nuker",
+      "Initiator",
+      "Disabler"
+    ],
+    "attr": "INT",
+    "attack": "Ranged",
+    "complexity": "Средне",
+    "year": "2010"
+  },
+  {
+    "name": "Sven",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Disabler",
+      "Initiator",
+      "Durable",
+      "Nuker"
+    ],
+    "attr": "STR",
+    "attack": "Melee",
+    "complexity": "Легко",
+    "year": "2010"
+  },
+  {
+    "name": "Techies",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Nuker",
+      "Disabler"
+    ],
+    "attr": "UNI",
+    "attack": "Ranged",
+    "complexity": "Средне",
+    "year": "2014"
+  },
+  {
+    "name": "Templar Assassin",
+    "gender": "Female",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Escape"
+    ],
+    "attr": "AGI",
+    "attack": "Ranged",
+    "complexity": "Средне",
+    "year": "2012"
+  },
+  {
+    "name": "Terrorblade",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Pusher",
+      "Nuker"
+    ],
+    "attr": "AGI",
+    "attack": "Melee",
+    "complexity": "Средне",
+    "year": "2014"
+  },
+  {
+    "name": "Tidehunter",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Initiator",
+      "Durable",
+      "Disabler",
+      "Nuker",
+      "Carry"
+    ],
+    "attr": "STR",
+    "attack": "Melee",
+    "complexity": "Легко",
+    "year": "2010"
+  },
+  {
+    "name": "Timbersaw",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Nuker",
+      "Durable",
+      "Escape"
+    ],
+    "attr": "STR",
+    "attack": "Melee",
+    "complexity": "Средне",
+    "year": "2012",
+    "internal": "shredder"
+  },
+  {
+    "name": "Tinker",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Nuker",
+      "Pusher"
+    ],
+    "attr": "INT",
+    "attack": "Ranged",
+    "complexity": "Средне",
+    "year": "2011"
+  },
+  {
+    "name": "Tiny",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Nuker",
+      "Pusher",
+      "Initiator",
+      "Durable",
+      "Disabler"
+    ],
+    "attr": "STR",
+    "attack": "Melee",
+    "complexity": "Средне",
+    "year": "2011"
+  },
+  {
+    "name": "Treant Protector",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Support",
+      "Initiator",
+      "Durable",
+      "Disabler",
+      "Escape"
+    ],
+    "attr": "STR",
+    "attack": "Melee",
+    "complexity": "Средне",
+    "year": "2012",
+    "internal": "treant"
+  },
+  {
+    "name": "Troll Warlord",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Pusher",
+      "Disabler",
+      "Durable"
+    ],
+    "attr": "AGI",
+    "attack": "Ranged",
+    "complexity": "Средне",
+    "year": "2013"
+  },
+  {
+    "name": "Tusk",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Initiator",
+      "Disabler",
+      "Nuker"
+    ],
+    "attr": "STR",
+    "attack": "Melee",
+    "complexity": "Легко",
+    "year": "2013"
+  },
+  {
+    "name": "Underlord",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Support",
+      "Nuker",
+      "Disabler",
+      "Durable",
+      "Escape"
+    ],
+    "attr": "STR",
+    "attack": "Melee",
+    "complexity": "Средне",
+    "year": "2016"
+  },
+  {
+    "name": "Undying",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Support",
+      "Durable",
+      "Disabler",
+      "Nuker"
+    ],
+    "attr": "STR",
+    "attack": "Melee",
+    "complexity": "Легко",
+    "year": "2012"
+  },
+  {
+    "name": "Ursa",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Durable",
+      "Disabler"
+    ],
+    "attr": "AGI",
+    "attack": "Melee",
+    "complexity": "Легко",
+    "year": "2011"
+  },
+  {
+    "name": "Vengeful Spirit",
+    "gender": "Female",
+    "types": [],
+    "roles": [
+      "Support",
+      "Initiator",
+      "Disabler",
+      "Nuker",
+      "Escape"
+    ],
+    "attr": "AGI",
+    "attack": "Ranged",
+    "complexity": "Легко",
+    "year": "2010",
+    "internal": "vengefulspirit"
+  },
+  {
+    "name": "Venomancer",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Support",
+      "Nuker",
+      "Initiator",
+      "Pusher",
+      "Disabler"
+    ],
+    "attr": "UNI",
+    "attack": "Ranged",
+    "complexity": "Легко",
+    "year": "2011"
+  },
+  {
+    "name": "Viper",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Durable",
+      "Initiator",
+      "Disabler"
+    ],
+    "attr": "AGI",
+    "attack": "Ranged",
+    "complexity": "Легко",
+    "year": "2011"
+  },
+  {
+    "name": "Visage",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Support",
+      "Nuker",
+      "Durable",
+      "Disabler",
+      "Pusher"
+    ],
+    "attr": "UNI",
+    "attack": "Ranged",
+    "complexity": "Сложно",
+    "year": "2012"
+  },
+  {
+    "name": "Void Spirit",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Escape",
+      "Nuker",
+      "Disabler"
+    ],
+    "attr": "UNI",
+    "attack": "Melee",
+    "complexity": "Средне",
+    "year": "2019"
+  },
+  {
+    "name": "Warlock",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Support",
+      "Initiator",
+      "Disabler"
+    ],
+    "attr": "INT",
+    "attack": "Ranged",
+    "complexity": "Легко",
+    "year": "2011"
+  },
+  {
+    "name": "Weaver",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Escape"
+    ],
+    "attr": "AGI",
+    "attack": "Ranged",
+    "complexity": "Средне",
+    "year": "2011"
+  },
+  {
+    "name": "Windranger",
+    "gender": "Female",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Support",
+      "Disabler",
+      "Escape",
+      "Nuker"
+    ],
+    "attr": "UNI",
+    "attack": "Ranged",
+    "complexity": "Средне",
+    "year": "2010"
+  },
+  {
+    "name": "Winter Wyvern",
+    "gender": "Female",
+    "types": [],
+    "roles": [
+      "Support",
+      "Disabler",
+      "Nuker"
+    ],
+    "attr": "INT",
+    "attack": "Ranged",
+    "complexity": "Средне",
+    "year": "2015"
+  },
+  {
+    "name": "Witch Doctor",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Support",
+      "Nuker",
+      "Disabler"
+    ],
+    "attr": "INT",
+    "attack": "Ranged",
+    "complexity": "Легко",
+    "year": "2010"
+  },
+  {
+    "name": "Wraith King",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Support",
+      "Durable",
+      "Disabler",
+      "Initiator"
+    ],
+    "attr": "STR",
+    "attack": "Melee",
+    "complexity": "Легко",
+    "year": "2011",
+    "internal": "skeleton_king"
+  },
+  {
+    "name": "Zeus",
+    "gender": "Male",
+    "types": [],
+    "roles": [
+      "Nuker",
+      "Carry",
+      "Support"
+    ],
+    "attr": "INT",
+    "attack": "Ranged",
+    "complexity": "Легко",
+    "year": "2010"
+  },
+  {
+    "name": "Unknown",
+    "gender": "—",
+    "types": [],
+    "roles": [
+      "Carry",
+      "Nuker",
+      "Disabler"
+    ],
+    "attr": "INT",
+    "attack": "Ranged",
+    "complexity": "-",
+    "year": "-"
+  }
+]
